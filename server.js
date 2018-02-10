@@ -129,6 +129,13 @@ app.get('/movieinfo/:movieid', (req, res) => {
     })
 })
 
+app.use((req, res, next) => {
+    if (req.accepts('html') && res.status(404)) {
+        res.render('error');
+        return;
+    }
+});
+
 
 
 app.listen(port, () => {
