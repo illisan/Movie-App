@@ -1,22 +1,11 @@
 const express = require('express')  //these are the dependencies needed to run this project.
 const app = express()
-const bodyParser = require('body-parser')
+
 const port = process.argv[2] || 8080   //assigning the port to a variable will help us when/if a port other than 8080 is chosen.
 app.set('view engine', 'ejs');  //implementing ejs as the rendering engine. use app.render()
 
 
-// app.get('/', (req, res) => {     //defining first route and first endpoint.
-//     res.render('index', { movies: getMovies() });
-// });
-
 app.use(express.static('public'))
-
-// parse application/x-www-form-urlencoded
-app.use(bodyParser.urlencoded({ extended: false }))
-
-// parse application/json
-app.use(bodyParser.json())
-
 
 const movies = [
 

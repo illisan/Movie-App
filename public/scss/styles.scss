@@ -1,0 +1,93 @@
+
+
+$heading-color:#880e4f;
+$heading-font: 'Playfair Display', serif;
+$heading-font-size:74px;
+
+
+.heading {
+    color:$heading-color;
+    font-family:$heading-font;
+    font-size:$heading-font-size;
+    margin-left: 45px;
+}
+
+$body-font: 'Roboto', sans-serif;
+$body-color: rgb(44, 41, 41);
+$body-font-size:18px;
+
+.bodyText {
+    color: $body-color;
+    font-family: $body-font;
+    font-size: $body-font-size;
+}
+
+.movieTitle {
+    font-family:'Playfair Display', serif;
+    font-weight: 600;
+}
+
+#movieContainer {
+    margin-top: 20px;
+}
+
+.row {
+    margin-top: 50px;
+}
+
+.nav-wrapper {
+    background-color:#FC9C4E;
+}
+
+h3 {
+ font-family: $heading-font;
+}
+
+.titleInd {
+    font-style: italic;
+    font-size:1.3rem;
+}
+
+#dropdown1 {
+    display:none;
+}
+
+#prevNextTop {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.arrow {
+    color: #388e3c;
+}
+
+.homeLink {
+    font-size: 2rem;
+}
+
+#hometop {
+    margin-right:40px;
+}
+
+#homebtm {
+    @extend #hometop;
+}
+
+
+// $copy-color: rgb(33, 33, 94);
+// $copy-font: 'Roboto';
+// $copy-font-size: 18px; 
+
+// .copyTest {
+//     color: $copy-color;
+//     font-family: $copy-font;
+//     font-size: $copy-font-size;
+// }
+
+// movie.plot {
+//     color: $copy-color;
+//     font-family: $copy-font;
+//     font-size: $copy-font-size;
+// }
+
+

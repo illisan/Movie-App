@@ -1,0 +1,46 @@
+.heading {
+  color: #880e4f;
+  font-family: "Playfair Display", serif;
+  font-size: 74px;
+  margin-left: 45px; }
+
+.bodyText {
+  color: #2c2929;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px; }
+
+.movieTitle {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600; }
+
+#movieContainer {
+  margin-top: 20px; }
+
+.row {
+  margin-top: 50px; }
+
+.nav-wrapper {
+  background-color: #FC9C4E; }
+
+h3 {
+  font-family: "Playfair Display", serif; }
+
+.titleInd {
+  font-style: italic;
+  font-size: 1.3rem; }
+
+#dropdown1 {
+  display: none; }
+
+#prevNextTop {
+  margin-top: 40px;
+  margin-bottom: 40px; }
+
+.arrow {
+  color: #388e3c; }
+
+.homeLink {
+  font-size: 2rem; }
+
+#hometop, #homebtm {
+  margin-right: 40px; }
